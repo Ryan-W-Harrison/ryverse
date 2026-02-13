@@ -85,3 +85,11 @@ usethis::use_package("extrafont")
 usethis::use_package("httr2")
 usethis::use_package("patchwork")
 usethis::use_package("glmmTMB")
+
+
+# Checks
+devtools::load_all()
+devtools::document()
+devtools::check()
+
+usethis::use_version("minor")

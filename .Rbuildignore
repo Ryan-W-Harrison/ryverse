@@ -1,0 +1,7 @@
+^ryverse\.Rproj$
+^\.Rproj\.user$
+^[.]?air[.]toml$
+^\.vscode$
+^LICENSE\.md$
+^dev$
+^\.github$

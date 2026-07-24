@@ -1,6 +1,6 @@
 Package: ryverse
 Title: Meta package that installs my commonly used packages
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person("Ryan", "Harrison", , "harrison.ryan.w@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-4575-006X"))
@@ -37,7 +37,6 @@ Imports:
     gtsummary,
     haven,
     here,
-    inspectdf,
     janitor,
     jsonlite,
     knitr,
@@ -78,3 +77,5 @@ Imports:
     patchwork,
     glmmTMB,
     httr2
+Suggests: vip
+Additional_repositories: https://bgreenwell.r-universe.dev

@@ -79,3 +79,4 @@ Imports:
     httr2
 Suggests: vip
 Additional_repositories: https://bgreenwell.r-universe.dev
+Remotes: bgreenwell/vip@main

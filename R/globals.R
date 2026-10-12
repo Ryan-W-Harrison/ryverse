@@ -15,7 +15,7 @@ dummy <- function() {
   duckplyr::as_duckdb_tibble
   easystats::easystats_packages
   extrafont::choose_font
-  future::as.cluster
+  future::as.FutureGlobals
   future.mirai::mirai_cluster
   ggplot2::add_gg
   ggsurvfit::add_censor_mark
@@ -28,7 +28,7 @@ dummy <- function() {
   haven::as_factor
   here::dr_here
   httr2::curl_help
-  inspectdf::inspect_cat
+  # inspectdf::inspect_cat
   janitor::add_totals_col
   jsonlite::as_gzjson_b64
   knitr::all_labels
@@ -65,6 +65,6 @@ dummy <- function() {
   viridis::cividis
   vroom::as.col_spec
   writexl::lxw_version
-  xgboost::cb.cv.predict
+  xgboost::xgboost
   yaml::as.yaml
 }

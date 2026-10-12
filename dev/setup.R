@@ -92,4 +92,6 @@ devtools::load_all()
 devtools::document()
 devtools::check()
 
-usethis::use_version("minor")
+# usethis::use_version("major")
+# usethis::use_version("minor")
+usethis::use_version("patch")
